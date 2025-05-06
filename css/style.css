@@ -1,0 +1,417 @@
+header i{
+    color: #ff6000;
+  }
+  .container-fluid li:hover{
+    background-color: #f78a5c;
+    color: black !important;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+  }
+  .navbar-expand-lg{
+    background-color: #fa6728;
+  }
+  .topbar-icon {
+      color: #ff6600;
+      font-size: 24px;
+      padding-right: 10px;
+    }
+    .search-btn {
+      background-color: #333;
+      color: white;
+    }
+    .navbar-nav .nav-link {
+      color: white;
+      font-weight: bold;
+    }
+    .navbar-nav .nav-link:hover {
+        color: rgb(9, 8, 8);
+        font-weight: bold;
+      }
+  
+   
+    .top-bar {
+      padding: 15px 0;
+    }
+    .main-nav {
+      background-color: #ff6000;
+    }
+   
+
+
+    .deal-box {
+      border: 1px solid #f97316;
+      background-color: #f8f9fa;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .hot-deal-btn {
+      background-color: #f97316;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      font-weight: bold;
+    }
+    .timer-text {
+      color: #f97316;
+      font-weight: bold;
+    }
+    article button:hover{
+      color: #f97316;
+      background-color: white;
+      border: 2px solid black;
+      transition: 0.5s;
+      border-radius: 10px;
+    }
+    .product-card {
+      position: relative;
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .product-img-wrapper {
+      position: relative;
+    }
+
+    .product-img-wrapper img {
+      width: 100%;
+      display: block;
+      transition: opacity 0.4s ease;
+    }
+
+    .product-img-hover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+    }
+
+    .product-card:hover .product-img-hover {
+      opacity: 1;
+    }
+
+    .product-card:hover .product-img-default {
+      opacity: 0;
+    }
+
+    .overlay-hover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.3);
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+      z-index: 2;
+    }
+
+    .product-card:hover .overlay-hover {
+      opacity: 1;
+    }
+
+
+    .overlay-hover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.3);
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+      z-index: 2;
+    }
+
+    .product-card:hover .overlay-hover {
+      opacity: 1;
+    }
+
+    .badge-sale, .badge-best {
+      position: absolute;
+      z-index: 3;
+      color: white;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 3px;
+      font-size: 12px;
+    }
+
+    .badge-sale {
+      top: 10px;
+      right: 10px;
+      background: #4caf50;
+    }
+
+    .badge-best {
+      bottom: 110px;
+      left: 10px;
+      background: #e53935;
+    }
+
+    .discount-badge {
+      background: #f97316;
+      color: white;
+      font-weight: bold;
+      font-size: 12px;
+      padding: 5px 7px;
+      border-radius: 3px;
+    }
+
+
+    .old-price {
+      text-decoration: line-through;
+      color: #888;
+    }
+    .container span:hover{
+      background-color: white;
+      color: #f97316;
+    }
+
+
+    .promo-container {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .promo-img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(128, 128, 128, 0.3); /* Light gray with opacity */
+      opacity: 0;
+      transition: 0.3s ease;
+      z-index: 2;
+    }
+
+    .promo-container:hover .overlay {
+      opacity: 1;
+    }
+    .no-gutter > [class*='col-'] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    
+
+
+    
+    .category-tab-wrapper {
+      background-color: #f5f9f9;
+      padding: 10px 0;
+    }
+
+    .category-tab-inner {
+      border-top: 2px solid #e44e73;
+      border-radius: 5px 5px 0 0;
+      background-color: #fff;
+      padding: 0;
+    }
+
+    .category-label {
+      background-color: #e44e73;
+      color: #fff;
+      font-weight: 600;
+      padding: 10px 15px;
+      display: flex;
+      align-items: center;
+      border-radius: 5px 0 0 0;
+    }
+
+    .category-label i {
+      margin-right: 8px;
+    }
+
+    .category-tabs {
+      list-style: none;
+      margin: 0;
+      padding: 0 15px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 20px;
+      font-weight: 500;
+    }
+
+    .category-tabs li a {
+      color: #555;
+      text-decoration: none;
+    }
+
+    .category-tabs li a.active {
+      color: #e44e73;
+      font-weight: bold;
+      position: relative;
+    }
+
+    .category-tabs li a.active::after {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      border-top: 7px solid #e44e73;
+    }
+
+
+    .service-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      background-color: #fff;
+      transition: transform 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .service-card img.main-img {
+      width: 100%;
+      transition: opacity 0.4s ease;
+    }
+
+    .service-card img.hover-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+
+    .service-card:hover img.hover-img {
+      opacity: 1;
+    }
+
+    .hover-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(200, 200, 200, 0.3);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      z-index: 1;
+    }
+
+    .service-card:hover .hover-overlay {
+      opacity: 1;
+    }
+
+    .labels {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+      z-index: 2;
+    }
+
+    .label-badge {
+      font-size: 12px;
+      padding: 3px 6px;
+      border-radius: 3px;
+      color: white;
+    }
+
+    .label-new { background-color: #ff4d6d; }
+    .label-sale { background-color: #28a745; }
+    .label-bestbuy { background-color: #ff6b6b; }
+
+    .service-info {
+      padding: 15px;
+    }
+
+    .service-title {
+      font-size: 16px;
+      font-weight: 600;
+      min-height: 45px;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      color: #e44e73;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .old-price {
+      text-decoration: line-through;
+      color: #aaa;
+      font-size: 14px;
+    }
+
+    .discount-badge {
+      background-color: #ff5722;
+      color: white;
+      font-size: 12px;
+      padding: 3px 6px;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+
+    .view-all-btn {
+      display: block;
+      margin: 30px auto 10px;
+      background-color: #ff5722;
+      color: white;
+      font-weight: bold;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 30px;
+    }
+    .view-all-btn:hover{
+      background-color: rgb(178, 174, 174);
+      color: rgb(6, 6, 6);
+      border: 2px solid black;
+      transition: 0.5s;
+    }
+
+    .contact-info i {
+      color: orange;
+      margin-right: 5px;
+    }
+    .contact-info p {
+      margin: 0;
+      font-size: 20px;
+    }
+
+
+
+    .fa-brands:hover, .bi:hover {
+      transition: color 0.3s ease;
+      cursor: pointer;
+      color: #f97316;
+    }
+  
+    .fas:hover {
+      color: #0b0b0b !important; /* Bootstrap 'text-danger' color */
+    }
+  
+    .logo {
+      display: flex;
+      justify-content: center;
+      font-size: 40px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .Type{
+      color: #f97316;
+    }
+    
