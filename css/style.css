@@ -399,9 +399,9 @@ header i{
       color: #f97316;
     }
   
-    .fas:hover {
-      color: #0b0b0b !important; /* Bootstrap 'text-danger' color */
-    }
+    /* .fas:hover {
+      color: #0b0b0b !important; 
+    } */
   
     .logo {
       display: flex;
@@ -415,3 +415,6 @@ header i{
       color: #f97316;
     }
     
+    .fas:hover{
+      color: #ff6000 !important;
+    }
